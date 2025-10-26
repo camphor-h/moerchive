@@ -26,9 +26,7 @@ I use pure local C lib to write this program. No need to download third-party li
 
 This program can only support archive file, no directory.
 
-* File size limit
 
-It can only write/read files whose size is in 4GB.
 
 # What's its usage?
 
