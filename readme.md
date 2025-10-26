@@ -62,6 +62,12 @@ You can use "make" to compile both of two program.
 
 or use "make mar"/"make unmar" to compile single program.
 
+# Bug
+I tested the program, and found that when you use unmar to unarchive .mar file to a directory that wait to be created on FreeBSD. You will get errors. However, if the output directory has existed yet. It will work fine. I'm not sure why this will happening. There's no same error on Linux.
+
+
+And if you use Kali Linux. Please #define _POSIX_C_SOURCE 200809L by yourself. We use strdup() in codes. I don't know why we cannot directly compile it without this macro.
+
 
 
 
